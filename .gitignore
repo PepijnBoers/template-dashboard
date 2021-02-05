@@ -1,0 +1,8 @@
+# Ignore mac store info and Python cache
+**/.DS_Store
+**/__pycache__
+**/*.pyc
+*.egg-info
+
+# Ignore venv
+/venv
