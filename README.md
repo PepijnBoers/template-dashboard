@@ -8,7 +8,15 @@ GitHub template that can be used for the creation of (interactive) web applicati
 - Basic folder structure
 - Requirements and setup file
 
+## Heroku
+The app can be easily deployed with the use of [Heroku](https://www.heroku.com/). The following commands (1) create Heroku application, (2) push master to Heroku remote, (3) start a dyno and (4) open the webapp.
 
+```
+heroku create
+git push heroku master
+heroku ps:scale web=1
+heroku open
+```
 ### Reference links
 
 - [Sidebar example](https://dash-bootstrap-components.opensource.faculty.ai/examples/simple-sidebar/)
