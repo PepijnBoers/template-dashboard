@@ -17,6 +17,13 @@ git push heroku master
 heroku ps:scale web=1
 heroku open
 ```
+
+## Imports
+When importing functions from files in the `dashboard` directory make sure to important them as follows:
+```python
+from .file import function
+```
+
 ### Reference links
 
 - [Sidebar example](https://dash-bootstrap-components.opensource.faculty.ai/examples/simple-sidebar/)
