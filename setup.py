@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     required = f.read().splitlines()
 
 setuptools.setup(
-    name="dashboard",
+    name="dutils",
     version="0.1",
     author="Pepijn Boers",
     author_email="pepijnbb@gmail.com",
-    description="Template web application",
+    description="(D)ashboard utilities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pepijnboers/background-linking",
+    url="https://github.com/PepijnBoers/template-dashboard",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
